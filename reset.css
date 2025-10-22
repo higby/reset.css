@@ -1,27 +1,24 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-* {
-  margin: unset;
-  padding: unset;
-}
-
 html {
-  overflow-y: scroll;
-  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 body {
   line-height: 1.5;
   min-block-size: 100vh;
-  text-rendering: optimizeSpeed;
 }
 
+/* :heading */
 h1,
 h2,
 h3,
@@ -38,17 +35,20 @@ p {
 
 ol,
 ul {
-  padding: revert;
+  list-style-position: inside;
+  ul,
+  ol {
+    padding-inline-start: 2ch;
+  }
 }
 
-ol[role="list"],
-ul[role="list"] {
+:is(ol, ul)[role="list"] {
   list-style: none;
-  padding: unset;
+  padding-inline: unset;
 }
 
 pre {
-  overflow: auto;
+  overflow-x: auto;
 }
 
 img,
