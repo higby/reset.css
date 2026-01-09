@@ -1,21 +1,21 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  -webkit-font-smoothing: antialiased;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
 }
 
 body {
-  line-height: 1.5;
-  min-block-size: 100vh;
+	line-height: 1.5;
+	min-block-size: 100vh;
 }
 
 /* :heading */
@@ -25,56 +25,56 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
-  text-wrap: balance;
+	overflow-wrap: break-word;
+	text-wrap: balance;
 }
 
 p {
-  text-wrap: pretty;
+	text-wrap: pretty;
 }
 
 ol,
 ul {
-  list-style-position: inside;
-  ul,
-  ol {
-    padding-inline-start: 2ch;
-  }
+	list-style-position: inside;
+	ul,
+	ol {
+		padding-inline-start: 2ch;
+	}
 }
 
 :is(ol, ul)[role="list"] {
-  list-style: none;
-  padding-inline: unset;
+	list-style: none;
+	padding-inline: unset;
 }
 
 pre {
-  overflow-x: auto;
+	overflow-x: auto;
 }
 
 img,
 picture {
-  block-size: auto;
-  display: block;
-  max-inline-size: 100%;
+	block-size: auto;
+	display: block;
+	max-inline-size: 100%;
 }
 
 input,
 textarea,
 select,
 button {
-  color: inherit;
-  font: inherit;
-  font-size: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
+	color: inherit;
+	font: inherit;
+	font-size: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
 }
 
 textarea {
-  min-height: 10em;
-  resize: vertical;
-  @supports (resize: block) {
-    resize: block;
-  }
+	min-height: 10em;
+	resize: vertical;
+	@supports (resize: block) {
+		resize: block;
+	}
 }
 
 button,
@@ -82,8 +82,8 @@ button[type],
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  user-select: none;
-  text-align: center;
+	user-select: none;
+	text-align: center;
 }
 
 button[disabled],
@@ -91,5 +91,5 @@ button[type][disabled],
 input[type="button"][disabled],
 input[type="submit"][disabled],
 input[type="reset"][disabled] {
-  cursor: not-allowed;
+	cursor: not-allowed;
 }

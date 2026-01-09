@@ -1,28 +1,18 @@
 {
-  "name": "@higby/reset",
-  "version": "3.2.0",
-  "description": "Personal CSS reset",
-  "scripts": {
-    "minify": "lightningcss --minify reset.css -o reset.min.css",
-    "prepare": "husky"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/higby/reset.git"
-  },
-  "keywords": [
-    "CSS",
-    "Reset"
-  ],
-  "files": [
-    "reset.css",
-    "reset.min.css"
-  ],
-  "author": "Branden Higby",
-  "license": "MIT",
-  "devDependencies": {
-    "husky": "^9.1.4",
-    "lightningcss-cli": "^1.23.0",
-    "prettier": "^3.3.3"
-  }
+	"name": "@higby/reset",
+	"version": "4.0.0",
+	"description": "Personal CSS reset",
+	"main": "reset.css",
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	},
+	"author": "Branden Higby (https://www.higby.io)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://codeberg.org/higby/reset.css.git"
+	},
+	"files": [
+		"reset.css"
+	]
 }
