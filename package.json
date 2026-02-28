@@ -7,7 +7,7 @@
 	"devDependencies": {
 		"prettier": "^3.3.3"
 	},
-	"author": "Branden Higby (https://www.higby.io)",
+	"author": "Branden Higby (https://higby.io)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
