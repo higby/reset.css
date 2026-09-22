@@ -1,19 +1,14 @@
 {
-	"name": "@higby/reset",
-	"version": "4.0.1",
-	"description": "Personal CSS reset",
-	"homepage": "https://codeberg.org/higby/reset.css",
-	"main": "reset.css",
-	"devDependencies": {
-		"prettier": "^3.3.3"
-	},
-	"author": "Branden Higby (https://higby.io)",
+	"name": "@higby/reset.css",
+	"version": "5.0.0",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://codeberg.org/higby/reset.css.git"
-	},
+	"type": "module",
+	"exports": "./reset.css",
 	"files": [
 		"reset.css"
-	]
+	],
+	"author": "Branden Higby <b@higby.io> (https://www.higby.io)",
+	"devDependencies": {
+		"@biomejs/biome": "2.5.11"
+	}
 }
